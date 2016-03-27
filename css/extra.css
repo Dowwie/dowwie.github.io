@@ -1,0 +1,35 @@
+img[alt=stones] {
+    display: block;
+    margin-left: -100px; 
+}
+
+.slider1 {
+    margin: 20px;
+    font-family: 'Lato';
+}
+
+.slider1 > ul > li:nth-of-type(3) {
+    background: url(./content/images/aboutme/destinations/acadia.jpg);
+}
+
+.slider1 > input:nth-of-type(3):checked ~ ul #bg {
+    width: 80%;
+    padding: 22px;
+    -moz-transition: .5s .5s;
+    -o-transition: .5s .5s;
+    -webkit-transition: .5s .5s;
+    transition: .5s .5s;
+}
+
+.slider1 > input:nth-of-type(3):checked ~ ul #bg div {
+    -moz-transform: translate(0);
+    -ms-transform: translate(0);
+    -o-transform: translate(0);
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    -moz-transition: .5s .9s;
+    -o-transition: .5s .9s;
+    -webkit-transition: .5s .9s;
+    transition: .5s .9s;
+}
+

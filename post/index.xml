@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Darin Gordon</title>
+    <link>http://www.daringordon.com/post/</link>
+    <description>Recent content in Posts on Darin Gordon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Sun, 27 Mar 2016 08:00:00 +0000</lastBuildDate>
+    <atom:link href="http://www.daringordon.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introducing Yosai</title>
+      <link>http://www.daringordon.com/introducing_yosai/</link>
+      <pubDate>Sun, 27 Mar 2016 08:00:00 +0000</pubDate>
+      
+      <guid>http://www.daringordon.com/introducing_yosai/</guid>
+      <description>
+
+&lt;p&gt;I am very pleased to announce the first release of &lt;a href=&#34;http://yosaiproject.github.io/yosai&#34;&gt;Yosai&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Yosai is an Apache2-licensed security framework written in Python that provides
+&lt;em&gt;industrial strength&lt;/em&gt; authentication, authorization, and session management from
+a common API.  It is a port-fork of Apache Shiro: a successful Java project
+widely used today.   Apache Shiro is a trusted framework, having evolved over ten
+years of battle testing and authored by subject matter experts.&lt;/p&gt;
+
+&lt;h2 id=&#34;why-yosai:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;Why Yosai?&lt;/h2&gt;
+
+&lt;p&gt;Yosai addresses an unmet need by the Python community:  the need for a
+feature-rich security framework that is decoupled from an application, reducing
+redundant security-related development across projects.&lt;/p&gt;
+
+&lt;p&gt;Application security is a moving target in software development.  It is extremely
+important that it be done right and it is increasingly difficult to do so.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s hard to roll your own and you probably shouldn&amp;rsquo;t try to.
+&lt;img src=&#34;http://www.daringordon.com/content/images/caveman_wheel.jpg&#34; alt=&#34;caveman_wheel&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I took this advice by porting a well-established project rather than create
+my own from scratch.  Further, Yosai uses other reputable Python projects when
+it made sense to do so, such as &lt;code&gt;Passlib&lt;/code&gt; for cryptographic hashing, PyCA&amp;rsquo;s &lt;code&gt;cryptography&lt;/code&gt; library for encryption.&lt;/p&gt;
+
+&lt;p&gt;Through this effort, the open source Python community now has a security framework
+that it can adapt to a wide range of applications, not just web applications.
+When &lt;em&gt;extensions&lt;/em&gt; are written for Yosai, the entire Yosai community will benefit
+rather than, say, a subset that uses a specific web framework.  When an &lt;em&gt;integration&lt;/em&gt;
+is written, users of a particular application can interface with Yosai.&lt;/p&gt;
+
+&lt;h2 id=&#34;v-0-1-0-project-good-enough-is-complete:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;v.0.1.0, project &amp;ldquo;Good Enough&amp;rdquo;, is complete&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://www.daringordon.com/content/images/no_stone_unturned.png&#34; alt=&#34;stones&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Omnem Movere Lapidem&lt;/em&gt;:  Leave No Stone Unturned&lt;/p&gt;
+
+&lt;p&gt;To leave no stone unturned is to leave nothing undone.  My goal with v0.1.0 was to create something &lt;em&gt;good enough&lt;/em&gt; for a first production release.  Consequently, some java-like &amp;ldquo;design-stones&amp;rdquo; were left unturned.  These stones &lt;em&gt;had&lt;/em&gt; to be left unturned: time and resource constraints did not allow for them to be tended to nor was I absolutely confident that every code path would survive the next iteration of refactoring:  although Apache Shiro is based on more than ten years of battle testing, competing priorities lead the ambitious to accept how things are along the way.&lt;/p&gt;
+
+&lt;p&gt;So, when you see portions of code that kind of smell like Java design, know that
+I had to make a tough decision not to spend too much time and effort on every piece. If a design impacts performance or maintenance, though, and it is on a critical path of execution, there&amp;rsquo;s a really good chance that it will eventually be refactored.&lt;/p&gt;
+
+&lt;h2 id=&#34;acknowledgements:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;Acknowledgements&lt;/h2&gt;
+
+&lt;p&gt;Special thanks to Alex Gronholm, Michael Merickel, Stack Overflow, and the Python
+IRC channels on Freenode.&lt;/p&gt;
+
+&lt;p&gt;.. and Les Hazlewood:  Thank you for Shiro!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
