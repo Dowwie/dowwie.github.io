@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.daringordon.com/</loc>
+    <loc>https://dowwie.github.io/</loc>
+    <lastmod>2016-04-22T08:02:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dowwie.github.io/public_domain_research/</loc>
+    <lastmod>2016-04-22T08:02:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dowwie.github.io/about_me/</loc>
     <lastmod>2016-03-27T08:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.daringordon.com/about_me/</loc>
-    <lastmod>2016-03-27T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.daringordon.com/introducing_yosai/</loc>
+    <loc>https://dowwie.github.io/introducing_yosai/</loc>
     <lastmod>2016-03-27T08:00:00+00:00</lastmod>
   </url>
   

@@ -2,20 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Darin Gordon</title>
-    <link>http://www.daringordon.com/</link>
+    <link>https://dowwie.github.io/</link>
     <description>Recent content on Darin Gordon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <copyright>All rights reserved - 2016</copyright>
-    <lastBuildDate>Sun, 27 Mar 2016 08:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.daringordon.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Apr 2016 08:02:48 -0400</lastBuildDate>
+    <atom:link href="https://dowwie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ChainAnchor and Public Partnership in Research</title>
+      <link>https://dowwie.github.io/public_domain_research/</link>
+      <pubDate>Fri, 22 Apr 2016 08:02:48 -0400</pubDate>
+      
+      <guid>https://dowwie.github.io/public_domain_research/</guid>
+      <description>&lt;p&gt;People need to stop and think about the ChainAnchor project without jumping to stark conclusions about its intent.&lt;/p&gt;
+
+&lt;p&gt;ChainAnchor is an experiment born in MIT. The project is lead by Sandy Pentland and company, who have a strong record in pursuing rights online.
+Pentland was awarded the &lt;a href=&#34;https://youtu.be/tXgLMj2Weig?t=15m6s&#34;&gt;Brandeis Privacy Award in 2015&lt;/a&gt;.  He and a team are the authors of &lt;a href=&#34;http://enigma.media.mit.edu&#34;&gt;Enigma&lt;/a&gt;.  This is a team that takes ethics seriously.&lt;/p&gt;
+
+&lt;p&gt;Pentland&amp;rsquo;s group releases papers, as all academics do, to foster review and discussion.  They&amp;rsquo;re not planting a flag and staking a claim as commercial ventures do.&lt;/p&gt;
+
+&lt;p&gt;In the case of blockchains and cryptocurrency, practioners like Peter Todd &lt;em&gt;could&lt;/em&gt; play an important role in that peer review process. However, in this circumstance Todd responded in a public, inflammatory way.&lt;/p&gt;
+
+&lt;p&gt;Consider for a moment what an entirely academic-led peer review process would be like if controversial papers such as that about ChainAnchor were publicly attacked and its authors humiliated. This would quickly become an unsafe environment to explore and challenge ideas.&lt;/p&gt;
+
+&lt;p&gt;If academia is to partner with practitioners and experts, both groups are going to need to achieve a mutually beneficial arrangement to advance the field together. This is now a case of what such an arrangement &lt;em&gt;would not&lt;/em&gt; look like.&lt;/p&gt;
+
+&lt;p&gt;For the record: I currently have no commercial nor academic interests in this subject.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About me</title>
-      <link>http://www.daringordon.com/about_me/</link>
+      <link>https://dowwie.github.io/about_me/</link>
       <pubDate>Sun, 27 Mar 2016 08:00:00 +0000</pubDate>
       
-      <guid>http://www.daringordon.com/about_me/</guid>
+      <guid>https://dowwie.github.io/about_me/</guid>
       <description>
 
 &lt;blockquote&gt;
@@ -65,7 +88,7 @@ taking leave after two terms to pursue entrepreneurial interests.&lt;/p&gt;
 &lt;h3 id=&#34;volunteering-community:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Volunteering, Community&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Python open source software:  author of &lt;a href=&#34;http://www.daringordon.com/introducing_yosai&#34;&gt;Yosai&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python open source software:  author of &lt;a href=&#34;https://dowwie.github.io/introducing_yosai&#34;&gt;Yosai&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;The American Red Cross&lt;/li&gt;
 &lt;li&gt;Leukemia Lympoma Society:  Team in Training&lt;/li&gt;
 &lt;li&gt;Habitat for Humanity&lt;/li&gt;
@@ -81,70 +104,70 @@ dirty, from DIY home improvement projects to backpacking or camping.&lt;/p&gt;
 &lt;div class=&#34;flexslider left&#34;&gt;
     &lt;ul class=&#34;slides&#34;&gt;
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/acadia.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/acadia.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Acadia National Park&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/bryce.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/bryce.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Bryce Canyon National Park&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/capitolreef.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/capitolreef.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Capital Reef National Park&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/glacier.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/glacier.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Glacier National Park&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/grandcanyon.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/grandcanyon.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Grand Canyon National Park&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/monumentvalley.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/monumentvalley.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Monument Valley&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/newfoundland.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/newfoundland.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Newfoundland&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/whitemountainsnh.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/whitemountainsnh.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;White Mountains, New Hampshire&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/yosemite.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/yosemite.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Yosemite National Park&lt;/h1&gt;
         &lt;/div&gt;
         &lt;/li&gt;
 
         &lt;li&gt;
-        &lt;img src=&#34;http://www.daringordon.com/content/images/aboutme/destinations/zion.jpg&#34; /&gt;
+        &lt;img src=&#34;https://dowwie.github.io/content/images/aboutme/destinations/zion.jpg&#34; /&gt;
         &lt;div class=&#34;meta&#34;&gt;
             &lt;h1&gt;Zion National Park&lt;/h1&gt;
         &lt;/div&gt;
@@ -157,10 +180,10 @@ dirty, from DIY home improvement projects to backpacking or camping.&lt;/p&gt;
     
     <item>
       <title>Introducing Yosai</title>
-      <link>http://www.daringordon.com/introducing_yosai/</link>
+      <link>https://dowwie.github.io/introducing_yosai/</link>
       <pubDate>Sun, 27 Mar 2016 08:00:00 +0000</pubDate>
       
-      <guid>http://www.daringordon.com/introducing_yosai/</guid>
+      <guid>https://dowwie.github.io/introducing_yosai/</guid>
       <description>
 
 &lt;p&gt;I am very pleased to announce the first release of &lt;a href=&#34;http://yosaiproject.github.io/yosai&#34;&gt;Yosai&lt;/a&gt;.&lt;/p&gt;
@@ -181,7 +204,7 @@ redundant security-related development across projects.&lt;/p&gt;
 important that it be done right and it is increasingly difficult to do so.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s hard to roll your own and you probably shouldn&amp;rsquo;t try to.
-&lt;img src=&#34;http://www.daringordon.com/content/images/caveman_wheel.jpg&#34; alt=&#34;caveman_wheel&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://dowwie.github.io/content/images/caveman_wheel.jpg&#34; alt=&#34;caveman_wheel&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I took this advice by porting a well-established project rather than create
 my own from scratch.  Further, Yosai uses other reputable Python projects when
@@ -195,7 +218,7 @@ is written, users of a particular application can interface with Yosai.&lt;/p&gt
 
 &lt;h2 id=&#34;v-0-1-0-project-good-enough-is-complete:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;v.0.1.0, project &amp;ldquo;Good Enough&amp;rdquo;, is complete&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.daringordon.com/content/images/no_stone_unturned.png&#34; alt=&#34;stones&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dowwie.github.io/content/images/no_stone_unturned.png&#34; alt=&#34;stones&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Omnem Movere Lapidem&lt;/em&gt;:  Leave No Stone Unturned&lt;/p&gt;
 

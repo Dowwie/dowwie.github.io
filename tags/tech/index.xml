@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech on Darin Gordon</title>
-    <link>http://www.daringordon.com/tags/tech/</link>
+    <link>https://dowwie.github.io/tags/tech/</link>
     <description>Recent content in Tech on Darin Gordon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Sun, 27 Mar 2016 08:00:00 +0000</lastBuildDate>
-    <atom:link href="http://www.daringordon.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dowwie.github.io/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introducing Yosai</title>
-      <link>http://www.daringordon.com/introducing_yosai/</link>
+      <link>https://dowwie.github.io/introducing_yosai/</link>
       <pubDate>Sun, 27 Mar 2016 08:00:00 +0000</pubDate>
       
-      <guid>http://www.daringordon.com/introducing_yosai/</guid>
+      <guid>https://dowwie.github.io/introducing_yosai/</guid>
       <description>
 
 &lt;p&gt;I am very pleased to announce the first release of &lt;a href=&#34;http://yosaiproject.github.io/yosai&#34;&gt;Yosai&lt;/a&gt;.&lt;/p&gt;
@@ -36,7 +36,7 @@ redundant security-related development across projects.&lt;/p&gt;
 important that it be done right and it is increasingly difficult to do so.&lt;/p&gt;
 
 &lt;p&gt;It&amp;rsquo;s hard to roll your own and you probably shouldn&amp;rsquo;t try to.
-&lt;img src=&#34;http://www.daringordon.com/content/images/caveman_wheel.jpg&#34; alt=&#34;caveman_wheel&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://dowwie.github.io/content/images/caveman_wheel.jpg&#34; alt=&#34;caveman_wheel&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I took this advice by porting a well-established project rather than create
 my own from scratch.  Further, Yosai uses other reputable Python projects when
@@ -50,7 +50,7 @@ is written, users of a particular application can interface with Yosai.&lt;/p&gt
 
 &lt;h2 id=&#34;v-0-1-0-project-good-enough-is-complete:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;v.0.1.0, project &amp;ldquo;Good Enough&amp;rdquo;, is complete&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://www.daringordon.com/content/images/no_stone_unturned.png&#34; alt=&#34;stones&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dowwie.github.io/content/images/no_stone_unturned.png&#34; alt=&#34;stones&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Omnem Movere Lapidem&lt;/em&gt;:  Leave No Stone Unturned&lt;/p&gt;
 
