@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag2 on Darin Gordon</title>
+    <link>https://dowwie.github.io/tags/tag2/</link>
+    <description>Recent content in Tag2 on Darin Gordon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-EN</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Thu, 28 Apr 2016 08:30:20 -0400</lastBuildDate>
+    <atom:link href="https://dowwie.github.io/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>awesome_postgres_queries</title>
+      <link>https://dowwie.github.io/post-title/</link>
+      <pubDate>Thu, 28 Apr 2016 08:30:20 -0400</pubDate>
+      
+      <guid>https://dowwie.github.io/post-title/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
