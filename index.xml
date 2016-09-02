@@ -7,8 +7,66 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <copyright>All rights reserved - 2016</copyright>
-    <lastBuildDate>Sun, 27 Mar 2016 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Sep 2016 08:00:00 +0000</lastBuildDate>
     <atom:link href="https://dowwie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing Yosai v0.2</title>
+      <link>https://dowwie.github.io/yosai_v02/</link>
+      <pubDate>Thu, 01 Sep 2016 08:00:00 +0000</pubDate>
+      
+      <guid>https://dowwie.github.io/yosai_v02/</guid>
+      <description>
+
+&lt;p&gt;Yosai v0.2 was released to &lt;a href=&#34;https://pypi.python.org/pypi/yosai/0.2.0&#34;&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yosaiproject.github.io/yosai&#34;&gt;Project Web Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;release-highlights&#34;&gt;Release Highlights&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Yosai is ready to be integrated with web applications&lt;/li&gt;
+&lt;li&gt;Configuration and initialization has been streamlined&lt;/li&gt;
+&lt;li&gt;Many java-like design patterns were refactored&lt;/li&gt;
+&lt;li&gt;Yosai and WebYosai APIs&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Major improvements with serialization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;pyramid-yosai&#34;&gt;pyramid_yosai&lt;/h2&gt;
+
+&lt;p&gt;pyramid_yosai is the first integration with a web application framework, specifically
+the &lt;a href=&#34;http://www.trypyramid.com&#34;&gt;Pyramid Web Framework&lt;/a&gt;.  pyramid_yosai was released to
+pypi and is ready for use in your projects.&lt;/p&gt;
+
+&lt;h3 id=&#34;monsterrx&#34;&gt;MonsterRX&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dowwie.github.io/content/images/monster_rx_logo.png&#34; alt=&#34;monster_rx&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A fully-functioning demonstration of a Yosai-secured pyramid application is
+&lt;a href=&#34;https://github.com/YosaiProject/monster_rx&#34;&gt;available from github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The project is called MonsterRX, as in &amp;ldquo;Monster Prescription&amp;rdquo;.  It&amp;rsquo;s a basic
+workflow application for medical prescriptions.  It&amp;rsquo;s intended for Monster use,
+exclusively, due to regulations.  These Monsters are very special and have diets
+quite different from ours.  In fact, their medicine are jellybeans!  Check out the
+project.&lt;/p&gt;
+
+&lt;h2 id=&#34;about-yosai&#34;&gt;About Yosai&lt;/h2&gt;
+
+&lt;p&gt;Yosai is an Apache2-licensed security framework written in Python that provides
+&lt;em&gt;industrial strength&lt;/em&gt; authentication, authorization, and session management from
+a common API.  You can secure &lt;em&gt;any&lt;/em&gt; kind of Python application with it.&lt;/p&gt;
+
+&lt;h2 id=&#34;python-versions-supported&#34;&gt;Python Versions Supported&lt;/h2&gt;
+
+&lt;p&gt;Yosai works with newer versions of python3, specifically py3.4 and newer.&lt;br /&gt;
+I haven&amp;rsquo;t the bandwidth nor a requirement to support py2.7 in my own work.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-yosai-project&#34;&gt;The Yosai Project&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/yosaiproject&#34;&gt;The Yosai Project&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About me</title>
@@ -41,9 +99,9 @@ initiatives across teams and business divisions in margin, risk management, prod
 and IT.  I&amp;rsquo;m now (finally) dedicating all of myself to a mission that I believe will
 have a positive, lasting impact in society.&lt;/p&gt;
 
-&lt;h2 id=&#34;brief-professional-summary:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Brief Professional Summary&lt;/h2&gt;
+&lt;h2 id=&#34;brief-professional-summary&#34;&gt;Brief Professional Summary&lt;/h2&gt;
 
-&lt;h3 id=&#34;career:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Career&lt;/h3&gt;
+&lt;h3 id=&#34;career&#34;&gt;Career&lt;/h3&gt;
 
 &lt;p&gt;Darin worked for Bank of America Merrill Lynch prime brokerage as a product development manager supporting the margin financing business. In this role, Darin helped the business grow through the implementation of new margin offerings. For example, Darin led a day trade margining initiative that has created new revenue opportunities.&lt;/p&gt;
 
@@ -55,14 +113,14 @@ have a positive, lasting impact in society.&lt;/p&gt;
 
 &lt;p&gt;Darin graduated from Rutgers / NJIT in 2003 with a bachelors degree in computer science. During undergraduate studies, he spent several years working in a laboratory of computer science research at Rutgers where he gained a wide range of experiences with infrastructural technology roles such as network/system administration and information security. Darin also spent time developing web sites using macromedia flash and html. He interned in the Summers for Merrill Lynch and ultimately accepted an offer to join their technology leadership program.&lt;/p&gt;
 
-&lt;h3 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h3&gt;
+&lt;h3 id=&#34;education&#34;&gt;Education&lt;/h3&gt;
 
 &lt;p&gt;Darin earned a Bachelor&amp;rsquo;s degree in Computer Science from Rutgers University / NJIT in 2003&lt;/p&gt;
 
 &lt;p&gt;Darin attended the executive MBA program of Duke Fuqua School of Business, class of 2012,
 taking leave after two terms to pursue entrepreneurial interests.&lt;/p&gt;
 
-&lt;h3 id=&#34;volunteering-community:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Volunteering, Community&lt;/h3&gt;
+&lt;h3 id=&#34;volunteering-community&#34;&gt;Volunteering, Community&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Python open source software:  author of &lt;a href=&#34;https://dowwie.github.io/introducing_yosai&#34;&gt;Yosai&lt;/a&gt;&lt;/li&gt;
@@ -71,7 +129,7 @@ taking leave after two terms to pursue entrepreneurial interests.&lt;/p&gt;
 &lt;li&gt;Habitat for Humanity&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;hobbies-interests:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hobbies, Interests&lt;/h2&gt;
+&lt;h2 id=&#34;hobbies-interests&#34;&gt;Hobbies, Interests&lt;/h2&gt;
 
 &lt;p&gt;When I&amp;rsquo;m not working on intellectually challenging work, I&amp;rsquo;m getting my hands
 dirty, from DIY home improvement projects to backpacking or camping.&lt;/p&gt;
@@ -172,7 +230,7 @@ a common API.  It is a port-fork of Apache Shiro: a successful Java project
 widely used today.   Apache Shiro is a trusted framework, having evolved over ten
 years of battle testing and authored by subject matter experts.&lt;/p&gt;
 
-&lt;h2 id=&#34;why-yosai:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;Why Yosai?&lt;/h2&gt;
+&lt;h2 id=&#34;why-yosai&#34;&gt;Why Yosai?&lt;/h2&gt;
 
 &lt;p&gt;Yosai addresses an unmet need by the Python community:  the need for a
 feature-rich security framework that is decoupled from an application, reducing
@@ -194,7 +252,7 @@ When &lt;em&gt;extensions&lt;/em&gt; are written for Yosai, the entire Yosai com
 rather than, say, a subset that uses a specific web framework.  When an &lt;em&gt;integration&lt;/em&gt;
 is written, users of a particular application can interface with Yosai.&lt;/p&gt;
 
-&lt;h2 id=&#34;v-0-1-0-project-good-enough-is-complete:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;v.0.1.0, project &amp;ldquo;Good Enough&amp;rdquo;, is complete&lt;/h2&gt;
+&lt;h2 id=&#34;v-0-1-0-project-good-enough-is-complete&#34;&gt;v.0.1.0, project &amp;ldquo;Good Enough&amp;rdquo;, is complete&lt;/h2&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://dowwie.github.io/content/images/no_stone_unturned.png&#34; alt=&#34;stones&#34; /&gt;&lt;/p&gt;
 
@@ -205,7 +263,7 @@ is written, users of a particular application can interface with Yosai.&lt;/p&gt
 &lt;p&gt;So, when you see portions of code that kind of smell like Java design, know that
 I had to make a tough decision not to spend too much time and effort on every piece. If a design impacts performance or maintenance, though, and it is on a critical path of execution, there&amp;rsquo;s a really good chance that it will eventually be refactored.&lt;/p&gt;
 
-&lt;h2 id=&#34;acknowledgements:6dd0a7e95f127f8b7720e815198a3233&#34;&gt;Acknowledgements&lt;/h2&gt;
+&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
 
 &lt;p&gt;Special thanks to Alex Gronholm, Michael Merickel, Stack Overflow, and the Python
 IRC channels on Freenode.&lt;/p&gt;
