@@ -7,8 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-EN</language>
     <copyright>All rights reserved - 2016</copyright>
-    <lastBuildDate>Thu, 01 Sep 2016 08:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Nov 2016 06:47:41 -0500</lastBuildDate>
     <atom:link href="https://dowwie.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Announcing Yosai v0.3</title>
+      <link>https://dowwie.github.io/yosai_v03/</link>
+      <pubDate>Mon, 21 Nov 2016 06:47:41 -0500</pubDate>
+      
+      <guid>https://dowwie.github.io/yosai_v03/</guid>
+      <description>
+
+&lt;p&gt;Yosai v0.3 was released to &lt;a href=&#34;https://pypi.python.org/pypi/yosai/0.3.0&#34;&gt;PyPI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yosaiproject.github.io/yosai&#34;&gt;Project Web Site&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;about-yosai&#34;&gt;About Yosai&lt;/h2&gt;
+
+&lt;p&gt;Yosai is an Apache2-licensed security framework written in Python that provides
+&lt;em&gt;industrial strength&lt;/em&gt; authentication, authorization, and session management from
+a common API.  You can secure &lt;em&gt;any&lt;/em&gt; kind of Python application with it.&lt;/p&gt;
+
+&lt;h2 id=&#34;release-highlights&#34;&gt;Release Highlights&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A complete second-factor authentication workflow using time-based one-time passwords&lt;/li&gt;
+&lt;li&gt;Rate limiting / account locking&lt;/li&gt;
+&lt;li&gt;Significant refactoring and optimizations&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;center-second-factor-authentication-center&#34;&gt;&lt;center&gt; Second Factor Authentication &lt;/center&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://dowwie.github.io/content/images/totp.jpg&#34; alt=&#34;totp_logo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As of this release, Yosai features native support for Time-based One Time Passwords (TOTP), the
+prevailing standard for one-time password authentication.&lt;/p&gt;
+
+&lt;p&gt;Authenticating a user configured for TOTP authentication involves two steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Username / Password Authentication&lt;/li&gt;
+&lt;li&gt;One-time Password Authentication&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;An overview of second-factor authentication was added to Yosai&amp;rsquo;s &lt;a href=&#34;https://yosaiproject.github.io/yosai/authentication&#34;&gt;authentication
+documentation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve created a &lt;a href=&#34;http://yosaiproject.github.io/yosai/tutorials/totp_tutorial&#34;&gt;complete tutorial&lt;/a&gt;
+to help you learn how to use TOTP in your project.  The tutorial guides you
+through setup and workflow.&lt;/p&gt;
+
+&lt;h3 id=&#34;center-rate-limiting-account-locking-center&#34;&gt;&lt;center&gt; Rate Limiting / Account Locking &lt;/center&gt;&lt;/h3&gt;
+
+&lt;p&gt;Yosai now allows developers to regulate account authentication for any particular
+user account by defining a number of maximum allowable authentication attempts.
+If a developer defines within yosai&amp;rsquo;s authentication settings an &lt;strong&gt;account_lock_threshold&lt;/strong&gt;,
+defining a limit to the total allowable failed attempts during authentication,
+account locking is enabled.&lt;/p&gt;
+
+&lt;p&gt;Assuming account locking is enabled, the moment that the number of failed
+authentication attempts exceeds the maximum-allowable threshold, Yosai will lock
+the account, prohibiting subsequent authentication regardless of whether
+credentials match.&lt;/p&gt;
+
+&lt;h3 id=&#34;center-refactoring-and-optimizations-center&#34;&gt;&lt;center&gt; Refactoring and Optimizations &lt;/center&gt;&lt;/h3&gt;
+
+&lt;p&gt;Refactoring is an iterative process that ought to be undertaken when the benefits
+of doing so are sufficient to justify the expenditure of effort required to perform
+it. In this case, the ends justified the means:  Yosai v0.3 is leaner, meaner, and
+consequently a whole lot more pythonic than prior versions.&lt;/p&gt;
+
+&lt;h3 id=&#34;project-details&#34;&gt;Project Details&lt;/h3&gt;
+
+&lt;p&gt;Yosai works with newer versions of python3, specifically py3.4 and newer.&lt;/p&gt;
+
+&lt;p&gt;See &lt;a href=&#34;https://github.com/yosaiproject&#34;&gt;the Yosai Project on Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;passlib-1-7&#34;&gt;Passlib 1.7&lt;/h3&gt;
+
+&lt;p&gt;Yosai v0.3 uses Passlib for cryptographic hashing and totp token generation.  This
+was made possible by the latest Passlib 1.7 release.  I&amp;rsquo;d like to thank its author,
+Eli, for his dedication to the project.  To learn more about this project and the
+updates in 1.7, vist &lt;a href=&#34;https://pythonhosted.org/passlib/&#34;&gt;the passlib web site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Release highlights:
+- Argon2 &amp;amp; Scrypt hash support
+- TOTP support
+- PBKDF2 now has faster builtin backend, and utilizes other backends where available
+- Lots of API cleanups and internal refactoring
+- HtpasswdFile reader is now more flexible, and with improved security options.
+- Refreshed documentation&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Announcing Yosai v0.2</title>
@@ -59,8 +149,7 @@ a common API.  You can secure &lt;em&gt;any&lt;/em&gt; kind of Python applicatio
 
 &lt;h2 id=&#34;python-versions-supported&#34;&gt;Python Versions Supported&lt;/h2&gt;
 
-&lt;p&gt;Yosai works with newer versions of python3, specifically py3.4 and newer.&lt;br /&gt;
-I haven&amp;rsquo;t the bandwidth nor a requirement to support py2.7 in my own work.&lt;/p&gt;
+&lt;p&gt;Yosai works with newer versions of python3, specifically py3.4 and newer.&lt;/p&gt;
 
 &lt;h2 id=&#34;the-yosai-project&#34;&gt;The Yosai Project&lt;/h2&gt;
 
