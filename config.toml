@@ -3,7 +3,7 @@ languageCode = "en-EN"
 title = "Darin Gordon"
 paginate = 5
 DisqusShortname = "dowwie"
-Copyright = "All rights reserved - 2016"
+Copyright = "All rights reserved - 2017"
 theme = "casper"
 canonifyurls = false 
 [params]
