@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+
+
+    
+        
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://dowwie.github.io//content/images/yosai_header.png"/>
+    
+
+
+
+<meta name="twitter:title" content="Introducing Yosai"/>
+<meta name="twitter:description" content="I am very pleased to announce the first release of Yosai.
+Yosai is an Apache2-licensed security framework written in Python that provides industrial strength authentication, authorization, and session management from a common API. It is a port-fork of Apache Shiro: a successful Java project widely used today. Apache Shiro is a trusted framework, having evolved over ten years of battle testing and authored by subject matter experts.
+Why Yosai? Yosai addresses an unmet need by the Python community: the need for a feature-rich security framework that is decoupled from an application, reducing redundant security-related development across projects."/>
+
+
+
+  	<meta property="og:title" content=" Introducing Yosai &middot;  Darin Gordon" />
+  	<meta property="og:site_name" content="Darin Gordon" />
+  	<meta property="og:url" content="https://dowwie.github.io/introducing_yosai/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2016-03-27T08:00:00Z" />
+
+    
+    <meta property="og:article:tag" content="tech" />
+    
+    
+
+    <title>
+       Introducing Yosai &middot;  Darin Gordon
+    </title>
+
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="https://dowwie.github.io/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="https://dowwie.github.io/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="https://dowwie.github.io/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="https://dowwie.github.io/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="https://dowwie.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Darin Gordon" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.18.1" />
+
+    <link rel="canonical" href="https://dowwie.github.io/introducing_yosai/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-60351215-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/">Blog</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="/about_me/">About me</a>
+            </li>
+        
+            <h3>Github</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="https://github.com/dowwie">Github repos</a>
+            </li>
+        
+            <h3>Contact Me</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="mailto:dkcdkg@gmail.com">EMail</a>
+            </li>
+        
+            <h3>KeybaseIO</h3>
+            <li class="nav-opened" role="presentation">
+            	<a href="https://keybase.io/dowwie">Keybase</a>
+            </li>
+        
+            
+            <li class="nav-opened" role="presentation">
+            	<a href="https://twitter.com/darin_gordon">Twitter</a>
+            </li>
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="https://dowwie.github.io/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+  
+  <header class="main-header post-head" style="background-image: url(https://dowwie.github.io//content/images/yosai_header.png)">
+  
+  <nav class="main-nav overlay clearfix">
+
+
+  
+      <a class="blog-logo" href="https://dowwie.github.io/"><img src="https://dowwie.github.io/images/logo.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">Introducing Yosai</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2016-03-27T08:00:00Z">
+            Mar 27, 2016
+          </time>
+        
+         
+          <span class="post-tag small"><a href="https://dowwie.github.io/tags/tech/">#tech</a></span>
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>I am very pleased to announce the first release of <a href="http://yosaiproject.github.io/yosai">Yosai</a>.</p>
+
+<p>Yosai is an Apache2-licensed security framework written in Python that provides
+<em>industrial strength</em> authentication, authorization, and session management from
+a common API.  It is a port-fork of Apache Shiro: a successful Java project
+widely used today.   Apache Shiro is a trusted framework, having evolved over ten
+years of battle testing and authored by subject matter experts.</p>
+
+<h2 id="why-yosai">Why Yosai?</h2>
+
+<p>Yosai addresses an unmet need by the Python community:  the need for a
+feature-rich security framework that is decoupled from an application, reducing
+redundant security-related development across projects.</p>
+
+<p>Application security is a moving target in software development.  It is extremely
+important that it be done right and it is increasingly difficult to do so.</p>
+
+<p>It&rsquo;s hard to roll your own and you probably shouldn&rsquo;t try to.
+<img src="/content/images/caveman_wheel.jpg" alt="caveman_wheel" /></p>
+
+<p>I took this advice by porting a well-established project rather than create
+my own from scratch.  Further, Yosai uses other reputable Python projects when
+it made sense to do so, such as <code>Passlib</code> for cryptographic hashing, PyCA&rsquo;s <code>cryptography</code> library for encryption.</p>
+
+<p>Through this effort, the open source Python community now has a security framework
+that it can adapt to a wide range of applications, not just web applications.
+When <em>extensions</em> are written for Yosai, the entire Yosai community will benefit
+rather than, say, a subset that uses a specific web framework.  When an <em>integration</em>
+is written, users of a particular application can interface with Yosai.</p>
+
+<h2 id="v-0-1-0-project-good-enough-is-complete">v.0.1.0, project &ldquo;Good Enough&rdquo;, is complete</h2>
+
+<p><img src="/content/images/no_stone_unturned.png" alt="stones" /></p>
+
+<p><em>Omnem Movere Lapidem</em>:  Leave No Stone Unturned</p>
+
+<p>To leave no stone unturned is to leave nothing undone.  My goal with v0.1.0 was to create something <em>good enough</em> for a first production release.  Consequently, some java-like &ldquo;design-stones&rdquo; were left unturned.  These stones <em>had</em> to be left unturned: time and resource constraints did not allow for them to be tended to nor was I absolutely confident that every code path would survive the next iteration of refactoring:  although Apache Shiro is based on more than ten years of battle testing, competing priorities lead the ambitious to accept how things are along the way.</p>
+
+<p>So, when you see portions of code that kind of smell like Java design, know that
+I had to make a tough decision not to spend too much time and effort on every piece. If a design impacts performance or maintenance, though, and it is on a critical path of execution, there&rsquo;s a really good chance that it will eventually be refactored.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>Special thanks to Alex Gronholm, Michael Merickel, Stack Overflow, and the Python
+IRC channels on Freenode.</p>
+
+<p>.. and Les Hazlewood:  Thank you for Shiro!</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="https://dowwie.github.io/" style="background-image: url(https://dowwie.github.io/images/logo.png)"><span class="hidden">Darin Gordon's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="https://dowwie.github.io/">Darin Gordon</a></h4>
+  
+  <p>Entrepreneur</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">New Jersey, USA</span>
+    <span class="author-link icon-link"><a href="http://www.daringordon.com">http://www.daringordon.com</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=Introducing%20Yosai&nbsp;-&nbsp;Darin%20Gordon&amp;url=https%3a%2f%2fdowwie.github.io%2fintroducing_yosai%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdowwie.github.io%2fintroducing_yosai%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2fdowwie.github.io%2fintroducing_yosai%2f&amp;description=Introducing%20Yosai"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=https%3a%2f%2fdowwie.github.io%2fintroducing_yosai%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'dowwie';
+  var disqus_url = 'https:\/\/dowwie.github.io\/introducing_yosai\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">Darin Gordon</a> All rights reserved - 2016</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="https://dowwie.github.io/js/jquery.js"></script>
+    <script type="text/javascript" src="https://dowwie.github.io/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="https://dowwie.github.io/js/index.js"></script>
+    
+</body>
+</html>
+

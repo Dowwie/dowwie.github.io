@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/dowwie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://daringordon.com
+  * I am dowwie (https://keybase.io/dowwie) on keybase.
+  * I have a public key with fingerprint A294 EC6B 8C3B A95B E6BE  D996 5158 F95D 2898 6F12
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101bb5c64312e1e497d5191de82152b9eac06c28e37eb82ff467d5a8fc67d8edc400a",
+            "fingerprint": "a294ec6b8c3ba95be6bed9965158f95d28986f12",
+            "host": "keybase.io",
+            "key_id": "5158f95d28986f12",
+            "kid": "0101bb5c64312e1e497d5191de82152b9eac06c28e37eb82ff467d5a8fc67d8edc400a",
+            "uid": "e368b47ffef75fa8c8918ffe1dbf7519",
+            "username": "dowwie"
+        },
+        "service": {
+            "hostname": "daringordon.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1467978141,
+    "expire_in": 157680000,
+    "prev": "1584c9270b28ae52a976284979c653c08d55733d07961fc8fa10655a451d52d0",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGtUltIFFEY3t0sbO0i9doFxiSDVebMzJk5sxldRCrIoodIKFnOOXNmnS4z6+zo
+JhYppWZuWAjShcoICyyhK9RLhUbhZnShIuoh6WJZJJkU+RKdkXzrsfPy8///933n
+/37+wzOnBELBjeXjFQVHnTnBB8MksHnvkc46gThGrRCtE7azicB2GCzpxbZbhhAV
+RCACQiBVFRlIDDBF1wwIdGAwJAEoEZ1hKqpUQkzWGEGSaSoqR2BkUh4RM6giiliI
+CKZlx5mbcC3b47JY0hVGVYKoTLAOCVMJM3RdhQAiU4eGhHSkmkDixEon6TP4cAQn
+WZHl8BpPYhPj/QP/n+eunpBjsoqIopkmMzVoYkSRDhDPgEF4Aeg+MMlcG+9kHG04
+qZTFhD0RgddqLMr8tfo+JvuYryHuuIZjF1FnJycnXMdzqLODNys9LxH1uV5twgen
+GIn9lYkRyzY4kxNqmJu0HFuIAo6knuXrAm5B1xBQQERguxKWy2KWj4CaikT+/G9Y
+DZfkS1OoLpVrIpEQZlDCuqZKiO9IpyqUqYgMCDVZNkRNV4FJkYmBqEKIFQgMKBmi
+4Dursh0hqvI5cZxrJq24jb1ql9sOtwTnZQWCocC0qSH/wgLh6bmTZ3ezPjvQ1VU3
+3NNoyZ2Xtp5JNfzoKCzuXrnwVepM1F0wtG/V+bGTdH1P95qm/lDzFIE+b3FWhMEV
+J9386Ovgz7GRExfLglUHy7IaO2d7mSWhy5tOtMXu4+NXZuXvdq8Pb5CWzugNy13H
+xh7euP763PO6zqYHtecy+bcODL7J+/X2ReZTBXFax9q/BZ7VvysoVjsyt5dFSwfe
+weWPN4mLVu9vb97zPj6374M9nv3ld8mNnHTl6Mu8uep+bdG91vmlJSdn39P6chpP
+f/7Yvzhi7cLu2dfpwKHRoSdrewe2tN1qiLcO3D07kid//L6uu2FbTX5X4YLxay+f
+Dip3ct2bp2Z59oW1V9N7/wA=
+=DuVZ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/dowwie
+
+==================================================================
