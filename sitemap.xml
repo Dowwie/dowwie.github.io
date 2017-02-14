@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>https://dowwie.github.io/rust_tutorials/</loc>
+    <lastmod>2016-07-13T07:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://dowwie.github.io/about_me/</loc>
     <lastmod>2016-03-27T08:00:00+00:00</lastmod>
   </url>
@@ -19,11 +24,6 @@
   <url>
     <loc>https://dowwie.github.io/introducing_yosai/</loc>
     <lastmod>2016-03-27T08:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://dowwie.github.io/rust_tutorials/</loc>
-    <lastmod>2014-07-13T07:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -40,7 +40,7 @@
   
   <url>
     <loc>https://dowwie.github.io/tags/rust/</loc>
-    <lastmod>2014-07-13T07:00:00+02:00</lastmod>
+    <lastmod>2016-07-13T07:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -57,7 +57,7 @@
   
   <url>
     <loc>https://dowwie.github.io/tags/tutorials/</loc>
-    <lastmod>2014-07-13T07:00:00+02:00</lastmod>
+    <lastmod>2016-07-13T07:00:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -148,6 +148,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-twitter:before {
     content: "\f202";
 }
+.icon-flickr:before {
+    content: "\f211";
+}
+.icon-mail:before {
+    content: "\f410";
+}
 .icon-google-plus:before {
     content: "\f206";
 }
@@ -523,6 +529,17 @@ body.nav-opened .site-wrapper {
 
 .main-header a.bloglogo {
     text-decoration: none;
+}
+
+.main-header a.bloglogo .icon-linkedin,
+.main-header a.bloglogo .icon-github,
+.main-header a.bloglogo .icon-twitter,
+.main-header a.bloglogo .icon-facebook,
+.main-header a.bloglogo .icon-instagram,
+.main-header a.bloglogo .icon-pinterest,
+.main-header a.bloglogo .icon-google-plus {
+    color: white;
+    font-size: 2em;
 }
 
 .main-nav {

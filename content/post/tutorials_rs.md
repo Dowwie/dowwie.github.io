@@ -2,7 +2,7 @@
 author = "Darin"
 menu = ""
 title = "Tutorials for Learning Rust in the Wild"
-date = "2014-07-13T07:00:00+02:00"
+date = "2016-07-13T07:00:00+02:00"
 draft = false
 comments = false
 tags = ["rust","tutorials"]
