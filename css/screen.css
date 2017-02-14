@@ -475,7 +475,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
     position: relative;
-    width: 90%;
+    width: 80%;
     max-width: 710px;
     margin: 0 auto;
 }
@@ -943,7 +943,7 @@ body.nav-opened .menu-button .word {
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
-    width: 90%;
+    width: 100%;
     max-width: 710px;
     margin: 2rem auto;
     padding-bottom: 4rem;
