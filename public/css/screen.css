@@ -524,7 +524,7 @@ body.nav-opened .site-wrapper {
 }
 
 .main-header .inner {
-    width: 80%;
+    width: 90%;
 }
 
 .main-header a.bloglogo {
@@ -945,7 +945,7 @@ body.nav-opened .menu-button .word {
     position: relative;
     width: 90%;
     max-width: 710px;
-    margin: 4rem auto;
+    margin: 2rem auto;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
